@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GTPS - Server Private Terbaik dengan fitur unggulan dan komunitas aktif!">
+    <title id="title">GTPS - Dashboard</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+
+    <!-- Lottie Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1 id="serverName">Memuat...</h1>
+        <p id="serverDesc">Deskripsi server akan muncul di sini.</p>
+        <button id="copyIP">🔗 Salin IP Server</button>
+    </header>
+
+    <!-- Tombol Menu Sidebar -->
+    <button id="menuButton" class="burger-menu">☰ Menu</button>
+
+    <!-- Sidebar Off-Canvas -->
+    <aside id="sidebar" class="sidebar">
+        <button id="closeSidebar" class="close-btn">✖</button>
+        <h2>Menu Sidebar</h2>
+        <ul>
+            <li><a href="faq.html">📖 FAQ</a></li>
+            <li><a href="about.html">ℹ️ Tentang</a></li>
+            <li><a href="contact.html">📞 Kontak</a></li>
+        </ul>
+    </aside>
+
+    <!-- Overlay Blur -->
+    <div id="overlay" class="sidebar-overlay"></div>
+
+    <!-- Navigasi -->
+    <nav role="navigation">
+        <div class="nav-menu">
+            <a href="download.html">📥 Download</a>
+            <a href="how-to-play.html">How to Play 🎮</a>
+
+            <!-- Dropdown Kontak -->
+            <div class="dropdown">
+                <button class="dropbtn">Hubungi Kami ▼</button>
+                <div class="dropdown-content">
+                    <a id="whatsappGroup" href="#" target="_blank" class="contact-item">
+                        <span>WhatsApp</span>
+                        <div id="whatsappAnim"></div>
+                    </a>
+                    <a id="discordServer" href="#" target="_blank" class="contact-item">
+                        <span>Discord</span>
+                        <div id="discordAnim"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Keunggulan Server -->
+    <section>
+        <h2>🔥 Keunggulan GTPS Kami</h2>
+        <ul id="featureList">
+            <li>Memuat keunggulan...</li>
+        </ul>
+    </section>
+
+<!-- Sejarah Server -->
+<section>
+    <h2>📜 Sejarah Server</h2>
+    <p id="serverHistory">Data akan muncul di sini.</p>
+    <ul>
+        <li><strong>🛠️ Awal Pembuatan:</strong> <span id="serverStart">-</span></li>
+        <li><strong>🚀 Versi Pertama Rilis:</strong> <span id="firstRelease">-</span></li>
+        <li><strong>🏆 Update Besar Pertama:</strong> <span id="majorUpdate">-</span></li>
+    </ul>
+</section>
+
+<!-- Testimoni Pemain -->
+<section>
+    <h2>💬 Testimoni Pemain</h2>
+    <ul id="testimonialList">
+        <li>Memuat testimoni...</li>
+    </ul>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <p id="ownerName">Pemilik: Memuat...</p>
+        <p>&copy; 2025 <span id="serverNameFooter">GTPS</span>. All rights reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="assets/config/config.js" defer></script>
+    <script src="assets/js/index.js" defer></script>
+    <script src="assets/js/contact.js" defer></script>
+    <script src="assets/js/sidebar.js" defer></script>
+
+</body>
+</html>
